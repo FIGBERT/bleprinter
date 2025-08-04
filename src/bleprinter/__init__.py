@@ -7,7 +7,7 @@ from bleprinter.const import FONT_SIZE_MULTIPLIER, FONT_FAMILY
 from bleprinter.text import Text
 
 
-class CatPrinter:
+class Printer:
     content: list[Text] = []
 
     def __receipt_height(self):
