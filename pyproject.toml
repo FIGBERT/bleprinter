@@ -1,7 +1,7 @@
 [project]
 name = "bleprinter"
 version = "0.1.0"
-description = "Add your description here"
+description = "A library for writing text to BLE receipt printers"
 readme = "README.md"
 authors = [
     { name = "Benji", email = "figbert@figbert.com" }
@@ -11,9 +11,8 @@ dependencies = [
     "bleak>=1.0.1",
     "opencv-python>=4.12.0.88",
 ]
-
-[project.scripts]
-bleprinter = "bleprinter:main"
+license = "AGPL-3.0-or-later"
+license-files = ["COPYING"]
 
 [build-system]
 requires = ["uv_build>=0.8.3,<0.9.0"]
